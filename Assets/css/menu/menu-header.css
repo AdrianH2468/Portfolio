@@ -1,0 +1,63 @@
+.tudo{
+
+}
+
+.menu{
+    display: flex;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    flex-direction: row;
+    height: auto;
+    padding: 0 1rem 0 0;
+}
+.menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.img__vector{
+    padding-top: 10%;
+    float: center;
+}
+
+.menu__title{
+    box-sizing: border-box;
+    margin-left: 10%;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+}
+
+.menu__list{
+    box-sizing:border-box ;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    height: 10px;
+    padding: auto;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.lista__cabecera {
+    margin-right: 10px;
+    text-align: right;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__list__item {
+    margin-bottom: 10px;
+}
+.menu__list__item:last-child {
+    margin-bottom: 0;
+}
