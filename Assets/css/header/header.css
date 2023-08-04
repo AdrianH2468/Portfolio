@@ -1,0 +1,21 @@
+.menu__header{
+    min-width: 10rem;
+    max-width: 20rem;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: row-reverse;
+}
+
+.img__vector {
+    padding-top: 5%;
+    width: 15%;
+    height: 5%;
+    vertical-align: middle;
+}
+
+.menu__title {
+    flex-direction: row;
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+}

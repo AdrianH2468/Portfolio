@@ -1,0 +1,57 @@
+.header{
+    vertical-align: middle;
+    display: flex;
+}
+.menu {
+    display: flex;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    padding: 1rem;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* Estilos para la lista */
+
+/* Estilos para los elementos de la lista */
+
+
+/* Estilos para el header cuando está en posición fija */
+/* Puedes agregar esto si deseas que el header se fije en la parte superior al hacer scroll */
+/*.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}*/
+
+/* Estilos para el header cuando es responsivo */
+/* Puedes agregar esto si deseas ajustar el tamaño y diseño del header en dispositivos móviles */
+/*@media (max-width: 768px) {
+    .menu {
+        height: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .img__vector {
+        max-height: 40px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .menu__title {
+        font-size: 18px;
+    }
+
+    .menu__list__item {
+        padding: 8px 10px;
+    }
+}*/
+
+/* Agrega aquí más estilos específicos según tus preferencias */
+

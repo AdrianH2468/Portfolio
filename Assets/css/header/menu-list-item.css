@@ -1,0 +1,14 @@
+.menu__list__item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para los enlaces cuando se les pasa el mouse por encima */
+.menu__list__item a:hover {
+    color: rgb(179, 228, 249);
+}
+
+.menu__list__item {
+    padding: 10px 15px;
+}
