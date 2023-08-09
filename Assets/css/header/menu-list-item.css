@@ -6,7 +6,8 @@
 
 /* Estilos para los enlaces cuando se les pasa el mouse por encima */
 .menu__list__item a:hover {
-    color: rgb(179, 228, 249);
+    transition: 0.5s;
+    color: rgb(255, 0, 157);
 }
 
 .menu__list__item {
