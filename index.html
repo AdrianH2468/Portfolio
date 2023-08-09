@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="Assets/css/titulo/title-subsection.css">
     <link rel="stylesheet" href="Assets/css/sobre-mi/sobre-mi.css">
     <link rel="stylesheet" href="Assets/css/skills/skill-box.css">
+    <link rel="stylesheet" href="Assets/css/skills/skill-img-list.css">
+    <link rel="stylesheet" href="Assets/css/formacion/Formacion.css">
+    <link rel="stylesheet" href="Assets/css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="Assets/css/experiencia/experiencia-text.css">
+    <link rel="stylesheet" href="Assets/css/experiencia/experiencia-boton.css">
     <title> Mi Portafolio</title>
 </head>
 <body>
@@ -29,12 +34,10 @@
     <div class="lista__cabecera">
         <nav>
             <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
                 <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">hidalgoadrian5@gmail.com</a></li>
+                <li class="menu__list__item contacto"><a href="#contacto">hidalgoadrian5@gmail.com</a></li>
             </ul>
         </div>
         
@@ -118,90 +121,34 @@
         <div class="academic__courses">
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
-                    <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\ufpr_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Análisis de datos</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2018 - UFPR</p></li>
-                </ul>
-            </div>
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!--Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2019 - Alura</p></li>
-                </ul>
-            </div>
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Posgrado en diseño</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>En curso - UFRJ</p></li>
+                    <li class="academic__courses__item__img"><img src="Assets/img/Logo alura.png"></li>
+                    <li class="academic__courses__item__title"><h4>Formación en Front-End</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2023 - Alura</p></li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- Sección de Experiencia Profesional/Proyectos-->
+
     <section class="experience" id="xp">
-        <h2 class="experience__section__title" >Experiencia Profesional</h2>
-        <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\decod_print.png">
-            <div class="experience__info"
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Alura Codificador </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-            </div>
-        </div>  
-
-        <div class="experiencie__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\forca_print.png">
-            <div class="experience__info"
-                <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
-            </div>
-        </div>  
-
+        <h2 class="experience__section__title">Experiencia Profesional</h2>
         <div class="experience__box">
-            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-            <img class="experience__img" src="assets\secretcode_print.png">
-            <div class="experience__info-container"
-                <h2 class="experience__title">Encriptador de texto</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
+        <img class="experience__img" src="Assets/img/Encriptador.jpeg" alt="Encriptador de texto">
+        <div class="experience__info">
+            <h2 class="experience__title">Encriptador de texto</h2>
+            <h3 class="experience__text">Challenge Alura Codificador</h3>
+            <div class="experience__description">
+            <a href="https://github.com/AdrianH2468/Challenge-Encriptador-G5" target="_blank" class="experience__link">
+                <button class="experience__button__1">Repositorio</button>
+            </a>
+            <a href="https://adrianh2468.github.io/Challenge-Encriptador-G5/" target="_blank" class="experience__link">
+                <button class="experience__button">Ver demo</button>
+            </a>
             </div>
-        </div>  
-
-        <div class="experience__box">
-            <img class="experience__img" src="assets\forca2_print.png">
-            <div class="experience__info-container"
-            <h2 class="experience__title">Juego creado con HTML, CSS y JavaScript</h2>
-                <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao--repo">Repositório</button></a></span>
-                            <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
-                    </div>
         </div>
-        </div>  
+        </div>
+    </section>
 
-        <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">
                 <div class="formcontato--esquerda">
@@ -221,8 +168,7 @@
                 </div>
             </div>
         </section>
-
-        <!-- Sección de Footer -->
+        
         <section class="footer">
             <div class="footer__rodape">
                 <p>Desarrollado por Adrián Hidalgo</p>

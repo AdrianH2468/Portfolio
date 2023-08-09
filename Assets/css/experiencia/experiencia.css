@@ -1,0 +1,28 @@
+.experience__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+
+.experience__content {
+  display: flex;
+  align-items: center;
+}
+
+.experience__img {
+  max-width: 200em; 
+  height: auto;
+  margin-right: 20px;
+  padding: 1em;
+}
+
+
+.experience__info {
+  flex: 1;
+}
+
+.experience__description {
+  display: flex;
+  gap: 10px;
+}

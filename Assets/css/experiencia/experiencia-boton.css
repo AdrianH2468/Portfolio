@@ -1,0 +1,24 @@
+.experience__button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.experience__button:hover {
+    background-color: #0056b3;
+}
+
+.experience__button__1{
+    background-color: #fff; 
+    color: #007bff; 
+    border: 2px solid #007bff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.experience__button__1:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}

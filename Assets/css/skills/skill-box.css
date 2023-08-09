@@ -29,14 +29,3 @@
     border-color: #333;
 }
 
-.skills__img img {
-    display: block;
-    width: 70px;
-    height: 70px;
-    margin: 0 auto 10px;
-}
-
-.skills__name {
-    font-size: 1.2em;
-    font-weight: bold;
-}
