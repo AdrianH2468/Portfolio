@@ -1,0 +1,9 @@
+#sobre-mi{
+    display: block;
+}
+
+@media (min-width:1024px){
+    #sobre-mi{
+        display: none;
+    }
+}

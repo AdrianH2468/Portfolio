@@ -30,40 +30,5 @@
     padding: 0.5rem;
 }
 
-.title__subsection{
-    text-align: start;
-    margin-top: 1rem;
-    margin-left: 5.5rem;
-    font-size: 2rem;
-    padding: 0.5rem;
-}
 
-.title__network{
-    margin: 4rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.title__link__item{
-    font-size: 1.5rem;
-    color: #000;
-    text-decoration: none;
-    display: flex;
-    align-items: center
-    
-}
-
-.title__network a:hover{
-    transition: 0.5s;
-    color: rgb(255, 0, 157);
-}
-
-.title__item__ico{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 25px;
-    width: 25px;
-    margin: 0.5rem;
-    order: -1;
-}

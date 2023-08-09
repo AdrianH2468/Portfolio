@@ -31,7 +31,7 @@
 
 /* Estilos para el header cuando es responsivo */
 /* Puedes agregar esto si deseas ajustar el tamaño y diseño del header en dispositivos móviles */
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     .menu {
         height: 50px;
         flex-direction: column;
@@ -51,7 +51,7 @@
     .menu__list__item {
         padding: 8px 10px;
     }
-}*/
+}
 
 /* Agrega aquí más estilos específicos según tus preferencias */
 
