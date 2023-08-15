@@ -29,3 +29,27 @@
     border-color: #333;
 }
 
+@media (max-width: 1024px) {
+    .skills__line {
+        flex-wrap: wrap; /* Permite que las cajas de habilidades se envuelvan en varias líneas */
+        justify-content: center; /* Centra horizontalmente los elementos */
+      }
+      
+      .skills__box {
+        flex: 0 0 calc(33.33% - 20px); /* Ocupa el 33.33% del ancho y agrega espacio */
+        margin: 10px; /* Agrega espacio entre las cajas */
+      }
+    }
+
+ @media (max-width: 768px) {
+        .skills__line {
+          flex-wrap: wrap; /* Permite que las cajas de habilidades se envuelvan en varias líneas */
+          justify-content: center; /* Centra horizontalmente los elementos */
+        }
+        
+        .skills__box {
+          flex: 0 0 calc(33.33% - 20px); /* Ocupa el 33.33% del ancho y agrega espacio */
+          margin: 10px; /* Agrega espacio entre las cajas */
+        }
+      }
+      

@@ -26,3 +26,18 @@
   display: flex;
   gap: 10px;
 }
+
+@media (max-width: 1024px) {
+  .experience__box {
+    width: 100%;
+    flex-direction: column; /* Cambia la dirección a columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+  }
+  
+  .experience__img {
+    max-width: 100%; /* Asegura que la imagen se ajuste al ancho */
+    width: auto; /* Evita un ancho fijo */
+    margin-right: 0; /* Elimina el margen derecho */
+    margin-bottom: 10px; /* Agrega un espacio entre la imagen y la info */
+  }
+}
