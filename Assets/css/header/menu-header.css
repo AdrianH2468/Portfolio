@@ -13,31 +13,9 @@
 }
 
 
-/* Estilos para la lista */
-
-/* Estilos para los elementos de la lista */
-
-
-/* Estilos para el header cuando está en posición fija */
-/* Puedes agregar esto si deseas que el header se fije en la parte superior al hacer scroll */
-/*.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}*/
-
-/* Estilos para el header cuando es responsivo */
-/* Puedes agregar esto si deseas ajustar el tamaño y diseño del header en dispositivos móviles */
-
-/* Para pantallas más pequeñas que 1024px (tablets) */
-/* Para pantallas más pequeñas que 1024px (tablets) */
-/* Para pantallas más pequeñas que 1024px (tablets) */
-/* Para pantallas más pequeñas que 1024px (tablets) */
 @media (max-width: 1024px) {
     .menu__list__item:not(.contacto) {
-      display: none; /* Ocultar todos los elementos del menú excepto el de contacto */
+      display: none; 
     }
 }
 

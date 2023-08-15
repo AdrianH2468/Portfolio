@@ -30,5 +30,28 @@
     padding: 0.5rem;
 }
 
+@media (max-width: 1024px) {
+    .title__network {
+      flex-direction: row; /* Cambia la dirección a fila para pantallas pequeñas */
+      justify-content: space-around; /* Centra horizontalmente los elementos */
+      align-items: center; /* Centra verticalmente los elementos */
+    }
+    
+    .title__profile {
+      margin-bottom: 0; /* Elimina el espacio entre la foto y el texto */
+      margin-right: 10px; /* Agrega espacio entre la foto y el siguiente ícono */
+    }
+  }
 
-
+  @media (max-width: 768px) {
+    .title__network {
+      flex-direction: row; /* Cambia la dirección a fila para pantallas pequeñas */
+      justify-content: space-around; /* Centra horizontalmente los elementos */
+      align-items: center; /* Centra verticalmente los elementos */
+    }
+    
+    .title__profile {
+      margin-bottom: 0; /* Elimina el espacio entre la foto y el texto */
+      margin-right: 10px; /* Agrega espacio entre la foto y el siguiente ícono */
+    }
+  }
