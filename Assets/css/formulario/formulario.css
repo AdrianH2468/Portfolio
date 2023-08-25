@@ -1,4 +1,7 @@
-/* Estilos generales */
+body{
+  box-sizing: border-box;
+}
+
 .formcontato__contacto {
     display: flex;
     align-items: center;
@@ -76,6 +79,7 @@
     }
   
     .formcontato__text {
+      box-sizing: border-box;
       margin-left: 0;
     }
   
@@ -89,19 +93,14 @@
     }
   
     img {
-        max-width: 100%; 
-        width: auto; 
+      flex-direction: column;
+      box-sizing: border-box;
+        width: 100%; 
         margin-right: 0; 
         margin-bottom: 10px; 
       }
     
       .formcontato__contacto {
-        flex-direction: column; 
-        align-items: center; 
+        box-sizing: border-box;
       }
-      
-      .formcontato__izquierda {
-        margin-right: 0; 
-        margin-bottom: 20px; 
-      }
-}    
+    }
